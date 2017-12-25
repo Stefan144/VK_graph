@@ -117,8 +117,16 @@ f1.close()
 ![](https://i.imgur.com/7wUZ5wB.jpg?1)
 
 [Источник изображений](http://www.dislab.org/GraphHPC-2016/slides/GraphHPC-2016_9_Klimov_Graphical-parallel-programming-on-the-example-of-detecting-communities-in-graphs_ru.pdf)
-* Реализация
-* Сложность
+* Поскольку для хранения графа мною была выбрана структура графа из библиотеки networkx, то логично было бы воспользоваться хорошоми алгоритмами адапатированными под эту структуру из той же библиотеки. В моем случае я выбрал k-cores и Louvain Method, реализуются они в таком случае очень просто:
+
+```python
+# k-cores
+nx.k_core(G, k)
+
+# Louvain Method
+import community
+community.best_partition(G)
+ ```
 ### Результаты работы
 * Выделененные сообщества
 * Оценка вычислительной сложности

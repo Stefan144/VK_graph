@@ -128,7 +128,8 @@ import community
 community.best_partition(G)
  ```
 ### Результаты работы
-* Выделененные сообщества, Оценка вычислительной сложности - в [коде](https://github.com/Stefan144/VK_graph/blob/master/vk_code.ipynb) 
+* Выделененные сообщества, Оценка вычислительной сложности - в [коде](https://github.com/Stefan144/VK_graph/blob/master/vk_code.ipynb) .
+
 Пример зависимости времени работы (ось ординат) k-core алгоритма при k=6 от размера графа n (ось абсцисс):
 ![](https://i.imgur.com/GkIK36x.jpg)
 

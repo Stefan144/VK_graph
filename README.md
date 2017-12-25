@@ -47,8 +47,8 @@ code here
 ### Алгоритмы
 * В ходе работы было применено два алгоритма выявления сообществ: k-core(k-ядра) для различных значения k, а также Лувенский метод выявления сообществ. k-ядром называется максимальный подграф содержащий вершины степени k или больше.
 
-![](https://i.imgur.com/YGSJN90.jpg =250x250)
-![](https://i.imgur.com/7l5Tftc.jpg | width=100)
+![](https://i.imgur.com/YGSJN90.jpg)
+![](https://i.imgur.com/7l5Tftc.jpg)
 
 [Источник изображений](http://www.dislab.org/GraphHPC-2016/slides/GraphHPC-2016_9_Klimov_Graphical-parallel-programming-on-the-example-of-detecting-communities-in-graphs_ru.pdf)
 * Реализация
